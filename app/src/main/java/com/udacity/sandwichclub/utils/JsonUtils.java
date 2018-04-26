@@ -2,7 +2,6 @@ package com.udacity.sandwichclub.utils;
 
 import android.util.JsonReader;
 import android.util.JsonToken;
-import android.util.Log;
 
 import com.udacity.sandwichclub.model.Sandwich;
 
@@ -55,7 +54,6 @@ public class JsonUtils {
             }
         }
 
-        Log.d("JsonUtils", sandwich.toString());
         jsonReader.endObject();
         jsonReader.close();
 
